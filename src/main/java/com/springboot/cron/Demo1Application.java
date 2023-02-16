@@ -27,7 +27,7 @@ public class Demo1Application implements CommandLineRunner {
 	//@Scheduled(cron = "${yourConfiguration.cronExpression}")
 	
 	//@Scheduled(fixedDelay = 5000, initialDelay = 1000)
-	 @Scheduled(cron = "*/10 * * * * *")
+	 @Scheduled(cron = "*/2 * * * * *")
 	public void siva() {
 
 		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
